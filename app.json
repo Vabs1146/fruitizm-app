@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Fruitizm",
+    "slug": "Fruitizm",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "sdkVersion": "37.0.0",
+    "orientation": "default",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.Demo.Fruitizm",
+      "versionCode": 1,
+      "permissions": [],
+      "icon": "./assets/logo.png",
+      "enableDangerousExperimentalLeanBuilds": true
+    },
+    "description": ""
+  }
+}
